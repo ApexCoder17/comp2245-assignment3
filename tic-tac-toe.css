@@ -78,6 +78,8 @@ h1 span {
   margin-left: 8px;
 }
 
+
+
 .square {
   background: white;
   border: 1px solid var(--grey);
@@ -92,13 +94,20 @@ h1 span {
   align-items: center;
 }
 
+
+
 .square.X {
   color: var(--lighterBlue);
 }
 
+
+
+
 .square.O {
   color: var(--coral);
 }
+
+
 
 .hover {
   background: var(--coral);
@@ -106,9 +115,12 @@ h1 span {
   cursor: pointer;
 }
 
+
+
 .hover.O {
   color: white;
 }
+
 
 .btn {
   color: white;
@@ -124,6 +136,8 @@ h1 span {
   line-height: 1.5;
   border-radius: .25rem;
 }
+
+
 
 .btn:hover {
   background-color: var(--lightBlue);
